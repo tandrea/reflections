@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see
+the bug that was introduced?
+
+With the diff command the differences between the two files were
+displayed.  You then could easily compared the differences to find
+the difference you were interested in. 
+
+
+How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+You would know what you changed when.  You could easily find a
+change you were looking for and make a change to your code using
+that information.
+
+
+What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions
+automatically saved, like Google docs does?
+
+Manual Commits:
+pros: You get to choose when to do logical commits.
+cons: You have the option to poorly select when you do a commit.
+
+Auto Commits are not good since you cannot logically seperate your
+commits.
+
+
+Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google
+Docs, treat each file separately?
+
+With Git it is made to understand and work with multiple files
+that make up a single project.  For one logical file change
+multiple files might have been modified.  In this case you would
+want all the files that were changed for the one logical change to
+be committed at once.
+
+
+How can you use the commands git log and git diff to view the
+history of files?
+
+The command "git log" will tell you about the different versions
+and the commant "git diff" will tell you what changed in the two
+versions.  The only thing I don't like is the huge string that
+doesn't make sense that you use to identify the versions.
+
+
+How might using version control make you more confident to make
+changes that could break something?
+
+It would mean I could revert back to something that was working.
+
+
+Now that you have your workspace set up, what do you want to try
+using Git for?
+
+Working on files locally that I have stored in github.
+
+
