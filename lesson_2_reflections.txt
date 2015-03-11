@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A hidden .git file is created with metadata.  You need to do it so you can work with github to save your work.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+You don't work on files in the staging area, it is just a holding location before the repository.  The working directory is where you do your file edits, an area to work on files.
+
+
