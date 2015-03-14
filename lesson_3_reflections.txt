@@ -1,4 +1,17 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping
+all your work local?
 
-A remote repository works out well to save files off your system for reduncey.
-It also works out well for multiple people working on the same project.
+A remote repository works out well to save files off your system
+for reduncey.  It also works out well for multiple people working
+on the same project.
+
+
+Why might you want to always pull changes manually rather than
+having Git automatically stay up-to-date with your remote
+repository?
+
+So you can be in control.  You might be doing multiple commits
+locally and you don't want all of them on the repository.  You
+might be waiting until the project is complete.
+
+

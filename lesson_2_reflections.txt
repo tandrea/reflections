@@ -3,8 +3,46 @@ What happens when you initialize a repository? Why do you need to do it?
 A hidden .git file is created with metadata.  You need to do it so you can work with github to save your work.
 
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and
+the repository? What value do you think it offers?
 
-You don't work on files in the staging area, it is just a holding location before the repository.  The working directory is where you do your file edits, an area to work on files.
+You don't work on files in the staging area, it is just a holding
+location before the repository.  The working directory is where
+you do your file edits, an area to work on files.
+
+
+How can you use the staging area to make sure you have one commit
+per logical change?
+
+You commit what you have in the staging area, make sure you only
+have the files you want to commit in that staging area.
+
+
+What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+If you want your code to go down different paths.  For example an expermental branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+You can see where the branches are in releationship to other
+branches.
+
+
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+The changes from the coins branch get merged into the mater branch.
+The diagram shows the coins branch merging into the master branch,
+keeping the changes from both branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+
+
+Doing the automatic merge can save loads of time and work but in
+cases where changes are in conflict, problems can arise.
 
 
