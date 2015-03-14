@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository works out well to save files off your system for reduncey.
+It also works out well for multiple people working on the same project.
