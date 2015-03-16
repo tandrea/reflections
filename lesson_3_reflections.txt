@@ -31,3 +31,25 @@ the remote stored locally?
 
 You would know where you left off on the remote.  You can then
 decide where you want to put in your changes.
+
+
+How would you collaborate without using Git or GitHub? What would
+be easier, and what would be harder?
+
+You could collaborate by keeping local copies of your files and
+doing a "diff" command to see if it is safe to merger your changes
+into the master.  The bad part, this would be manual intensive and
+errors would be more possible.  Easier to use Git and GitHub, let
+those programs analyze your changes.
+
+
+When would you want to make changes in a separate branch rather
+than directly in master? What benefits does each approach have?
+
+If you change needs to be approved before going into the master
+branch, it would be best to put it into a branch first.  This way
+you would not corrupt the master branch.
+
+I'll be having cake now ;-)
+
+
